@@ -59,20 +59,6 @@ function playGame() {
   btn3.addEventListener("click", () => playRound("scissors"));
 }
 
-function getHumanChoice() {
-  let humanChoice = prompt();
-  humanChoice = humanChoice.toLowerCase();
-  if (
-    humanChoice == "rock" ||
-    humanChoice == "paper" ||
-    humanChoice == "scissors"
-  ) {
-    return humanChoice;
-  } else {
-    return (output.textContent = "Invalid input.");
-  }
-}
-
 function getComputerChoice() {
   let ran = Math.floor(Math.random() * 3);
   if (ran == 0) {
