@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "lucon";
+  font-display: swap;
+  src: url("JetBrainsMono-Medium.woff2") format("woff2");
+}
+
+body {
+  color: lime;
+  font-family: "lucon", sans-serif;
+  text-align: center;
+  background-color: black;
+}
+
+p {
+  color: red;
+}
